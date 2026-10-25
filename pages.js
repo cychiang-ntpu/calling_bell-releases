@@ -8,7 +8,6 @@ const PAGES = {
   "en": {
     name: "English",
     title: "CRCL-BELL infrared eye-gaze call bell",
-    tagline: "Let patients who cannot speak or move their hands call for help just by looking.",
     download: "Windows software", download_btn: "Download installer", releases: "All versions",
     sections: [
       ["What it is", `<p>With motor neuron disease the body gradually stops following commands: speaking and pressing a bell get harder day by day, while the eyes can usually still look. In the daytime someone is nearby and can see what is needed; at night the family has to sleep too, and a patient who wants to turn over, feels unwell or needs someone often has no choice but to wait. We built this call bell for the night: the patient looks at the lights, and the bell brings someone. The lights are near-infrared — only three faint red dots are visible, the room stays dark, and nobody's sleep is disturbed; those three dots are also exactly what the patient looks at. Setting up means following the on-screen guidance to aim and focus the camera; the patient practises “right light, then left light” a few times and soon has it — so that both patient and family can sleep in peace.</p>
@@ -41,7 +40,6 @@ const PAGES = {
   "vi": {
     name: "Tiếng Việt",
     title: "CRCL-BELL chuông gọi điều khiển bằng mắt (hồng ngoại)",
-    tagline: "Để người bệnh không nói được, không cử động tay được vẫn gọi người chỉ bằng cách nhìn.",
     download: "Phần mềm Windows", download_btn: "Tải bộ cài", releases: "Tất cả phiên bản",
     sections: [
       ["Đây là gì", `<p>Với bệnh thần kinh vận động, cơ thể dần không còn nghe theo ý muốn: nói và bấm chuông mỗi ngày một khó hơn, trong khi mắt thường vẫn nhìn được. Ban ngày có người bên cạnh, còn thấy được nhu cầu; ban đêm gia đình cũng phải ngủ, người bệnh muốn trở mình, thấy khó chịu, muốn gọi người thì thường chỉ biết chờ. Chúng tôi làm chuông gọi này cho ban đêm: người bệnh nhìn đèn, chuông sẽ gọi người đến. Đèn dùng tia hồng ngoại gần — chỉ thấy ba chấm đỏ rất mờ, phòng vẫn tối, giấc ngủ của ai cũng không bị quấy rầy; ba chấm đó cũng chính là mục tiêu để người bệnh nhìn. Lắp đặt chỉ cần làm theo hướng dẫn trên màn hình để chỉnh camera cho đúng và rõ; người bệnh tập vài lần “nhìn đèn phải, rồi đèn trái” là quen ngay — để cả người bệnh và gia đình đều ngủ yên.</p>
@@ -74,7 +72,6 @@ const PAGES = {
   "id": {
     name: "Bahasa Indonesia",
     title: "CRCL-BELL bel panggil kendali mata (inframerah)",
-    tagline: "Agar pasien yang tidak bisa bicara dan tidak bisa menggerakkan tangan tetap bisa memanggil orang hanya dengan melihat.",
     download: "Perangkat lunak Windows", download_btn: "Unduh penginstal", releases: "Semua versi",
     sections: [
       ["Apa ini", `<p>Pada penyakit neuron motorik, tubuh lambat laun tidak lagi menuruti perintah: berbicara dan menekan bel makin hari makin sulit, sementara mata biasanya masih bisa melihat. Siang hari ada orang di dekatnya yang bisa melihat kebutuhannya; malam hari keluarga juga harus tidur, dan pasien yang ingin berbalik badan, merasa tidak nyaman, atau butuh seseorang sering kali hanya bisa menunggu. Kami membuat bel panggil ini untuk malam hari: pasien melihat lampu, dan bel memanggil orang. Lampunya inframerah dekat — hanya tiga titik merah samar yang terlihat, kamar tetap gelap, tidur siapa pun tidak terganggu; tiga titik itu juga tepat menjadi sasaran yang dilihat pasien. Pemasangan cukup mengikuti panduan di layar untuk mengarahkan dan memfokuskan kamera; pasien berlatih beberapa kali “lampu kanan, lalu lampu kiri” dan segera terbiasa — agar pasien dan keluarga sama-sama bisa tidur tenang.</p>
@@ -107,7 +104,6 @@ const PAGES = {
   "ms": {
     name: "Bahasa Melayu",
     title: "CRCL-BELL loceng panggil kawalan mata (inframerah)",
-    tagline: "Supaya pesakit yang tidak boleh bercakap dan tidak boleh menggerakkan tangan masih boleh memanggil orang hanya dengan melihat.",
     download: "Perisian Windows", download_btn: "Muat turun pemasang", releases: "Semua versi",
     sections: [
       ["Apakah ini", `<p>Dengan penyakit neuron motor, badan beransur-ansur tidak lagi menurut perintah: bercakap dan menekan loceng semakin hari semakin sukar, sedangkan mata biasanya masih boleh melihat. Pada waktu siang ada orang berdekatan yang nampak keperluannya; pada waktu malam keluarga juga perlu tidur, dan pesakit yang mahu membalikkan badan, berasa tidak selesa atau memerlukan seseorang selalunya hanya mampu menunggu. Kami membina loceng panggil ini untuk waktu malam: pesakit melihat lampu, dan loceng memanggil orang. Lampunya inframerah dekat — hanya tiga titik merah samar yang kelihatan, bilik kekal gelap, tidur sesiapa pun tidak terganggu; tiga titik itu jugalah sasaran yang dilihat pesakit. Pemasangan hanya mengikut panduan di skrin untuk menghala dan memfokuskan kamera; pesakit berlatih beberapa kali “lampu kanan, kemudian lampu kiri” dan cepat biasa — supaya pesakit dan keluarga sama-sama boleh tidur lena.</p>
@@ -140,7 +136,6 @@ const PAGES = {
   "fil": {
     name: "Filipino",
     title: "CRCL-BELL infrared eye-gaze call bell",
-    tagline: "Para makatawag ng tao ang pasyenteng hindi na makapagsalita at hindi na maigalaw ang kamay — sa pamamagitan lang ng pagtingin.",
     download: "Software para sa Windows", download_btn: "I-download ang installer", releases: "Lahat ng bersyon",
     sections: [
       ["Ano ito", `<p>Sa motor neuron disease, unti-unting hindi na sumusunod ang katawan: araw-araw nagiging mas mahirap ang pagsasalita at pagpindot ng bell, pero karaniwang nakakatingin pa rin ang mga mata. Sa araw may tao sa tabi na nakakakita ng pangangailangan; sa gabi kailangan ding matulog ng pamilya, at ang pasyenteng gustong tumagilid, hindi komportable, o may kailangan ay madalas na naghihintay na lang. Ginawa namin ang call bell na ito para sa gabi: titingnan ng pasyente ang mga ilaw, at tatawag ng tao ang bell. Near-infrared ang mga ilaw — tatlong malabong pulang tuldok lang ang nakikita, nananatiling madilim ang kuwarto, at walang naiistorbo sa pagtulog; ang tatlong tuldok ding iyon ang tinitingnan ng pasyente. Sa pag-set up, sundin lang ang gabay sa screen para itutok at i-focus ang camera; magsasanay ang pasyente nang ilang beses ng “kanang ilaw, tapos kaliwang ilaw” at mabilis itong masasanay — para kapwa makatulog nang mahimbing ang pasyente at pamilya.</p>
@@ -173,7 +168,6 @@ const PAGES = {
   "th": {
     name: "ไทย",
     title: "CRCL-BELL กริ่งเรียกควบคุมด้วยสายตา (อินฟราเรด)",
-    tagline: "ให้ผู้ป่วยที่พูดไม่ได้ ขยับมือไม่ได้ เรียกคนได้เพียงแค่มอง",
     download: "ซอฟต์แวร์ Windows", download_btn: "ดาวน์โหลดตัวติดตั้ง", releases: "ทุกเวอร์ชัน",
     sections: [
       ["นี่คืออะไร", `<p>โรคเซลล์ประสาทสั่งการทำให้ร่างกายค่อย ๆ ไม่ทำตามใจสั่ง การพูดและการกดกริ่งยากขึ้นทุกวัน แต่ดวงตามักยังมองได้ กลางวันมีคนอยู่ใกล้ ๆ ยังเห็นว่าต้องการอะไร แต่กลางคืนครอบครัวก็ต้องนอน ผู้ป่วยที่อยากพลิกตัว ไม่สบาย หรืออยากเรียกใคร มักทำได้เพียงรอ เราสร้างกริ่งเรียกนี้ขึ้นเพื่อกลางคืน: ผู้ป่วยมองไฟ กริ่งก็จะเรียกคนมา ไฟเป็นอินฟราเรดใกล้ — มองเห็นเพียงจุดแดงจาง ๆ สามจุด ห้องยังมืด ไม่รบกวนการนอนของใคร และจุดสามจุดนั้นก็คือเป้าที่ผู้ป่วยต้องมองพอดี การติดตั้งเพียงทำตามคำแนะนำบนหน้าจอเพื่อเล็งและปรับโฟกัสกล้อง ผู้ป่วยฝึก “มองไฟขวา แล้วไฟซ้าย” ไม่กี่ครั้งก็คล่อง — เพื่อให้ทั้งผู้ป่วยและครอบครัวนอนหลับได้อย่างสบายใจ</p>
@@ -206,7 +200,6 @@ const PAGES = {
   "km": {
     name: "ខ្មែរ",
     title: "CRCL-BELL កណ្ដឹងហៅបញ្ជាដោយភ្នែក (អ៊ីនហ្វ្រារ៉េដ)",
-    tagline: "ឲ្យអ្នកជំងឺដែលនិយាយមិនបាន និងកម្រើកដៃមិនបាន អាចហៅមនុស្សបានដោយគ្រាន់តែមើល។",
     download: "កម្មវិធី Windows", download_btn: "ទាញយកកម្មវិធីដំឡើង", releases: "កំណែទាំងអស់",
     sections: [
       ["នេះជាអ្វី", `<p>ជាមួយជំងឺណឺរ៉ូនចលនា រាងកាយបន្តិចម្ដងៗលែងស្ដាប់បញ្ជា៖ ការនិយាយ និងការចុចកណ្ដឹងកាន់តែពិបាកពីមួយថ្ងៃទៅមួយថ្ងៃ ខណៈភ្នែកជាធម្មតានៅអាចមើលបាន។ ពេលថ្ងៃមានមនុស្សនៅក្បែរ ឃើញតម្រូវការបាន ប៉ុន្តែពេលយប់ គ្រួសារក៏ត្រូវគេងដែរ ហើយអ្នកជំងឺដែលចង់ក្រឡាប់ខ្លួន មិនស្រួលខ្លួន ឬត្រូវការនរណាម្នាក់ ច្រើនតែបានត្រឹមរង់ចាំ។ យើងបង្កើតកណ្ដឹងហៅនេះសម្រាប់ពេលយប់៖ អ្នកជំងឺមើលភ្លើង កណ្ដឹងក៏ហៅមនុស្សមក។ ភ្លើងជាអ៊ីនហ្វ្រារ៉េដជិត — មើលឃើញតែចំណុចក្រហមស្រអាប់បីប៉ុណ្ណោះ បន្ទប់នៅតែងងឹត គ្មាននរណាម្នាក់រំខានដំណេកឡើយ ហើយចំណុចទាំងបីនោះក៏ជាគោលដៅដែលអ្នកជំងឺត្រូវមើលដែរ។ ការតម្លើងគ្រាន់តែធ្វើតាមការណែនាំលើអេក្រង់ដើម្បីតម្រង់ និងផ្ដោតកាមេរ៉ា អ្នកជំងឺហាត់ «ភ្លើងស្ដាំ រួចភ្លើងឆ្វេង» ពីរបីដង ក៏ស្ទាត់ — ដើម្បីឲ្យទាំងអ្នកជំងឺ និងគ្រួសារគេងបានស្រួល។</p>
@@ -239,7 +232,6 @@ const PAGES = {
   "my": {
     name: "မြန်မာ",
     title: "CRCL-BELL အနီအောက်ရောင်ခြည် မျက်လုံးထိန်း ခေါ်ခေါင်းလောင်း",
-    tagline: "စကားမပြောနိုင်၊ လက်မလှုပ်နိုင်သော လူနာများ ကြည့်ရုံဖြင့် လူခေါ်နိုင်စေရန်။",
     download: "Windows ဆော့ဖ်ဝဲ", download_btn: "သွင်းယူဖိုင် ဒေါင်းလုဒ်", releases: "ဗားရှင်းအားလုံး",
     sections: [
       ["ဒါက ဘာလဲ", `<p>မော်တာ နယူရွန် ရောဂါကြောင့် ခန္ဓာကိုယ်သည် တဖြည်းဖြည်း အမိန့်ကို မလိုက်နာတော့ပါ— စကားပြောခြင်းနှင့် ခေါင်းလောင်း နှိပ်ခြင်းသည် တစ်နေ့ထက်တစ်နေ့ ပိုခက်လာပြီး မျက်လုံးကတော့ များသောအားဖြင့် ကြည့်နိုင်နေဆဲ ဖြစ်သည်။ နေ့ခင်း အနီးတွင် လူရှိ၍ လိုအပ်ချက်ကို မြင်နိုင်သေးသော်လည်း ညတွင် မိသားစုလည်း အိပ်ရမည်ဖြစ်ရာ လူနာက လှည့်အိပ်ချင်၊ မသက်မသာ ဖြစ်၊ လူခေါ်ချင်လျှင် စောင့်ရုံသာ ဖြစ်တတ်သည်။ ဤခေါ်ခေါင်းလောင်းကို ညအတွက် ပြုလုပ်ထားသည်— လူနာက မီးကို ကြည့်လျှင် ခေါင်းလောင်းက လူကို ခေါ်ပေးသည်။ မီးသည် အနီးကပ် အနီအောက်ရောင်ခြည် ဖြစ်၍ မှိန်သော အနီရောင် အစက်သုံးစက်သာ မြင်ရပြီး အခန်း မှောင်နေဆဲ၊ မည်သူ့ အိပ်စက်မှုကိုမျှ မနှောင့်ယှက်ပါ။ ထိုအစက်သုံးစက်သည် လူနာ ကြည့်ရမည့် ပစ်မှတ်လည်း ဖြစ်သည်။ တပ်ဆင်ရာတွင် မျက်နှာပြင် လမ်းညွှန်ချက်အတိုင်း ကင်မရာကို ချိန်၍ ကြည်အောင် လုပ်ရုံ၊ လူနာက “ညာမီး ပြီးမှ ဘယ်မီး” ကို အကြိမ်အနည်းငယ် လေ့ကျင့်လျှင် မကြာမီ ကျွမ်းကျင်သွားသည်— လူနာရော မိသားစုပါ စိတ်ချလက်ချ အိပ်နိုင်စေရန်။</p>
@@ -272,7 +264,6 @@ const PAGES = {
   "lo": {
     name: "ລາວ",
     title: "CRCL-BELL ກະດິ່ງເອີ້ນຄົນຄວບຄຸມດ້ວຍສາຍຕາ (ອິນຟຣາເຣດ)",
-    tagline: "ໃຫ້ຄົນເຈັບທີ່ເວົ້າບໍ່ໄດ້ ຂະຫຍັບມືບໍ່ໄດ້ ເອີ້ນຄົນໄດ້ພຽງແຕ່ເບິ່ງ.",
     download: "ຊອບແວ Windows", download_btn: "ດາວໂຫຼດຕົວຕິດຕັ້ງ", releases: "ທຸກເວີຊັນ",
     sections: [
       ["ນີ້ແມ່ນຫຍັງ", `<p>ພະຍາດເຊລປະສາດສັ່ງການເຮັດໃຫ້ຮ່າງກາຍຄ່ອຍໆ ບໍ່ເຮັດຕາມໃຈສັ່ງ: ການເວົ້າແລະການກົດກະດິ່ງຍາກຂຶ້ນທຸກມື້ ແຕ່ຕາມັກຍັງເບິ່ງໄດ້. ກາງເວັນມີຄົນຢູ່ໃກ້ ຍັງເຫັນວ່າຕ້ອງການຫຍັງ ແຕ່ກາງຄືນຄອບຄົວກໍຕ້ອງນອນ ຄົນເຈັບທີ່ຢາກພິກຕົວ ບໍ່ສະບາຍ ຫຼືຢາກເອີ້ນໃຜ ມັກເຮັດໄດ້ແຕ່ລໍຖ້າ. ພວກເຮົາສ້າງກະດິ່ງເອີ້ນນີ້ຂຶ້ນເພື່ອກາງຄືນ: ຄົນເຈັບເບິ່ງໄຟ ກະດິ່ງກໍເອີ້ນຄົນມາ. ໄຟເປັນອິນຟຣາເຣດໃກ້ — ເຫັນພຽງຈຸດແດງຈາງໆ ສາມຈຸດ ຫ້ອງຍັງມືດ ບໍ່ລົບກວນການນອນຂອງໃຜ ແລະສາມຈຸດນັ້ນກໍຄືເປົ້າທີ່ຄົນເຈັບຕ້ອງເບິ່ງພໍດີ. ການຕິດຕັ້ງພຽງເຮັດຕາມຄຳແນະນຳເທິງໜ້າຈໍເພື່ອເລັງແລະປັບໂຟກັສກ້ອງ ຄົນເຈັບຝຶກ “ໄຟຂວາ ແລ້ວໄຟຊ້າຍ” ສອງສາມເທື່ອກໍຄ່ອງ — ເພື່ອໃຫ້ທັງຄົນເຈັບແລະຄອບຄົວນອນຫຼັບໄດ້ຢ່າງສະບາຍໃຈ.</p>
@@ -305,7 +296,6 @@ const PAGES = {
   "tet": {
     name: "Tetun",
     title: "CRCL-BELL sino bolu ho matan (infravermellu)",
-    tagline: "Atu moras ne'ebé la bele ko'alia no la bele book liman bele bolu ema ho haree de'it.",
     download: "Software Windows", download_btn: "Download instaladór", releases: "Versaun hotu",
     sections: [
       ["Ne'e saida", `<p>Ho moras neurón motor, isin neineik la tuir ona komandu: ko'alia no hanehan sino sai susar liu loron ba loron, maibé matan baibain sei bele haree. Loron nia laran iha ema besik ne'ebé haree presiza saida; kalan nia laran família mós tenke toba, no moras-na'in ne'ebé hakarak fila isin, sente la di'ak ka presiza ema dala barak bele de'it hein. Ami halo sino bolu ne'e ba kalan: moras-na'in haree ahi, no sino bolu ema mai. Ahi mak infravermellu besik — haree de'it pontu mean tolu ne'ebé la naroman, kuartu nafatin nakukun, no ema ida nia toba la perturba; pontu tolu ne'e mós mak buat ne'ebé moras-na'in haree. Instalasaun tuir de'it orientasaun iha ekrã atu hadia no foka kámara; moras-na'in treinu dala balu “ahi loos, depois ahi karuk” no lalais badinas — atu moras-na'in no família hotu bele toba hakmatek.</p>
@@ -338,7 +328,6 @@ const PAGES = {
   "pt": {
     name: "Português",
     title: "CRCL-BELL campainha de chamada por olhar (infravermelhos)",
-    tagline: "Para que doentes que não conseguem falar nem mover as mãos chamem ajuda apenas com o olhar.",
     download: "Software para Windows", download_btn: "Transferir o instalador", releases: "Todas as versões",
     sections: [
       ["O que é", `<p>Com a doença do neurónio motor o corpo deixa gradualmente de obedecer: falar e carregar numa campainha tornam-se mais difíceis de dia para dia, enquanto os olhos normalmente ainda conseguem olhar. De dia há alguém por perto que vê o que é preciso; de noite a família também tem de dormir, e o doente que quer virar-se, se sente mal ou precisa de alguém muitas vezes só pode esperar. Fizemos esta campainha para a noite: o doente olha para as luzes e a campainha chama alguém. As luzes são de infravermelho próximo — só se veem três pontos vermelhos muito ténues, o quarto fica escuro e o sono de ninguém é perturbado; esses três pontos são precisamente o que o doente olha. Para instalar basta seguir as indicações no ecrã para apontar e focar a câmara; o doente treina algumas vezes “luz da direita, depois luz da esquerda” e depressa se habitua — para que doente e família possam dormir descansados.</p>

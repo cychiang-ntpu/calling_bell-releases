@@ -20,7 +20,6 @@
   main { max-width: 820px; margin: 0 auto; padding: 24px 16px 64px; }
   header { padding: 40px 0 24px; border-bottom: 1px solid var(--line); }
   h1 { font-size: 2rem; line-height: 1.25; margin: 0 0 8px; }
-  .tagline { font-size: 1.25rem; color: var(--muted); margin: 0 0 20px; }
   h2 { font-size: 1.35rem; margin: 40px 0 10px; }
   h3 { font-size: 1.05rem; margin: 20px 0 6px; }
   p, li { margin: 0 0 10px; }
@@ -52,7 +51,6 @@
 <main>
 <header>
   <h1>CRCL-BELL 紅外線非接觸式眼控叫人鈴</h1>
-  <p class="tagline">讓無法說話、無法動手的病友，用「看」來叫人。</p>
   <p class="langbar"><label for="lang">Language / 語言</label> <select id="lang" aria-label="language"></select></p>
   <nav id="nav-zh">
     <a href="#what">這是什麼</a><a href="#who">給誰用</a><a href="#how">怎麼運作</a>
@@ -161,8 +159,8 @@
  * 預設跟瀏覽器語言；選過的記在 localStorage。
  */
 (() => {
-  const H1 = document.querySelector('header h1'), TAG = document.querySelector('header .tagline');
-  const ZH_TITLE = H1.textContent, ZH_TAG = TAG.textContent;
+  const H1 = document.querySelector('header h1');
+  const ZH_TITLE = H1.textContent;
   const sel = document.getElementById('lang');
   const codes = ['zh-TW'].concat(Object.keys(PAGES));
   for (const c of codes) {
@@ -177,9 +175,9 @@
     document.getElementById('nav-zh').hidden = !zh;
     const box = document.getElementById('page-i18n');
     box.hidden = zh;
-    if (zh) { H1.textContent = ZH_TITLE; TAG.textContent = ZH_TAG; return; }
+    if (zh) { H1.textContent = ZH_TITLE; return; }
     const P = PAGES[code];
-    H1.textContent = P.title; TAG.textContent = P.tagline;
+    H1.textContent = P.title;
     let html = `<div class="download"><p><strong>${esc(P.download)}</strong> <span class="ver" id="ver2"></span></p>
 <p><a class="btn" id="dl2" href="https://github.com/cychiang-ntpu/calling_bell-releases/releases">${esc(P.download_btn)}</a>
  &nbsp; <a href="https://github.com/cychiang-ntpu/calling_bell-releases/releases">${esc(P.releases)}</a></p></div>`;
