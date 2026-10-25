@@ -37,6 +37,7 @@
   table { border-collapse: collapse; width: 100%; margin: 10px 0 18px; }
   th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
   th { width: 9em; color: var(--muted); font-weight: 600; }
+  table.log th { font-family: ui-monospace, Consolas, monospace; white-space: nowrap; }
   .steps li { margin-bottom: 8px; }
   footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .95rem; }
   .en { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--line); }
@@ -51,7 +52,7 @@
   <p class="tagline">讓無法說話、無法動手的病友，用「看」來叫人。</p>
   <nav>
     <a href="#what">這是什麼</a><a href="#who">給誰用</a><a href="#how">怎麼運作</a>
-    <a href="#install">安裝</a><a href="#team">計畫與團隊</a><a href="#contact">聯絡</a>
+    <a href="#install">安裝</a><a href="#changelog">版本紀錄</a><a href="#team">計畫與團隊</a><a href="#contact">聯絡</a>
     <a href="#english">English</a>
   </nav>
 </header>
@@ -104,6 +105,19 @@
   <li>之後有新版本時，程式啟動後會在畫面最上方提示，按「下載並安裝」即可。升級不會覆蓋你調好的設定。</li>
 </ol>
 <div class="note">安裝檔目前沒有數位簽章（程式碼簽章憑證申請中），所以 Windows 會先擋一下，上面第 2、3 步是正常現象。下載請認明本頁與 GitHub 的 Releases。</div>
+
+<h2 id="changelog">版本紀錄</h2>
+<p>只列使用者看得到的變化；目前都是候選版（rc），正式版會去掉 rc。</p>
+<table class="log">
+  <tr><th>v1.0.0-rc.8</th><td>2026-10-25 — 只有版本號，用來驗證自動更新整條流程。</td></tr>
+  <tr><th>v1.0.0-rc.7</th><td>2026-10-25 — 修正：rc.6 的更新提示在畫面上出不來。裝了 rc.6 的機器請手動裝這一版，之後就會自動提示。</td></tr>
+  <tr><th>v1.0.0-rc.6</th><td>2026-10-25 — 自動更新：啟動後與每天一次檢查新版本，有新版在畫面上方提示，按「下載並安裝」即可；「關於」裡可以關掉。</td></tr>
+  <tr><th>v1.0.0-rc.5</th><td>2026-10-21 — 有一點糊焦的影像也能用：瞳孔與反光點的偵測改進，開發版多了「瞳孔半徑」「敏感度」滑桿；畫面可顯示偵測標示（綠圈＝瞳孔、黃線＝三顆燈、白點＝反光點）。</td></tr>
+  <tr><th>v1.0.0-rc.4</th><td>2026-10-19 — 開發版可以錄影與逐幀重播（除錯用）；「⇄」切換病友視角；紅外線燈可持續點亮做檢測（5 分鐘自動恢復）；卡片可拖曳排版。修正：「觸發序列」的套用從未生效。</td></tr>
+  <tr><th>v1.0.0-rc.2</th><td>2026-10-14 — 看了第一顆燈後幾秒內沒看第二顆會自動取消，避免誤響；攝影機或控制盒拔掉時發出警報；監測中電腦不會自動睡眠；距離與對焦的三點校正；控制盒驅動一鍵安裝改善。</td></tr>
+  <tr><th>v1.0.0-rc.1</th><td>2026-10-04 — 第一個候選版：功能齊全，交協會實地測試。</td></tr>
+</table>
+<p style="color:var(--muted)">完整的技術說明與每一版的細目在 <a href="https://github.com/cychiang-ntpu/calling_bell-releases/releases">Releases</a>。</p>
 
 <h2 id="team">計畫與團隊</h2>
 <p>本系統由<strong>「漸凍人協會眼控叫人鈴研發計畫」</strong>支持，是國立臺北大學與漸凍人協會的合作計畫（2026 年），目標是把實驗室的雛形做成病友可以實際使用、協會日後能自行維運與再製的成品。</p>
