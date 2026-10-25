@@ -18,7 +18,7 @@ const PAGES = {
 <li>One Windows computer plus the box is all it needs.</li></ul>`],
       ["Who it is for and how to get it", `<p>It was developed for the patients of the <strong>Taiwan Motor Neuron Disease Association</strong>. The first units are lent to patients through the Association.</p>
 <ul><li><strong>Patients and families</strong>: contact the Association to apply for a trial; they arrange the device, training and feedback.</li>
-<li><strong>Other care organisations or researchers</strong>: write to us (see Contact). This is still a release candidate under field testing and is not sold as a product.</li>
+<li><strong>Other care organisations or researchers</strong>: write to us (see Contact). This is still a release candidate under field testing and is not yet generally available.</li>
 <li><strong>Software</strong>: use the download button above. It opens without the box, so you can look at the interface first.</li></ul>`],
       ["How it works", `<p>The three infrared lights flash in turn. The camera subtracts each picture from the previous one, leaving only the three reflections of the lights on the cornea; they form a small triangle. The pupil is found with a circle detector. Whichever reflection the pupil centre is closest to is the light being watched; it must be watched for about one second to count. When the lights are watched in the set order, the bell rings; if the next light is not watched within a few seconds, the attempt is cancelled to avoid false alarms.</p>
 <p>The program is a native Windows program in ten interface languages: Traditional Chinese, English, Vietnamese, Indonesian, Malay, Filipino, Thai, Khmer, Burmese and Lao.</p>`],
@@ -51,7 +51,7 @@ const PAGES = {
 <li>Chỉ cần một máy tính Windows và hộp này.</li></ul>`],
       ["Dành cho ai, lấy ở đâu", `<p>Hệ thống được phát triển cho người bệnh của <strong>Hiệp hội bệnh nhân bệnh thần kinh vận động Đài Loan</strong> (hiệp hội xơ cứng teo cơ). Những bộ đầu tiên được Hiệp hội cho người bệnh mượn dùng thử.</p>
 <ul><li><strong>Người bệnh và gia đình</strong>: liên hệ Hiệp hội để đăng ký dùng thử; Hiệp hội sắp xếp thiết bị, hướng dẫn và thu nhận ý kiến.</li>
-<li><strong>Cơ sở chăm sóc hoặc nhà nghiên cứu khác</strong>: viết thư cho chúng tôi (xem Liên hệ). Đây vẫn là bản thử nghiệm đang được dùng thử thực tế, chưa bán như sản phẩm.</li>
+<li><strong>Cơ sở chăm sóc hoặc nhà nghiên cứu khác</strong>: viết thư cho chúng tôi (xem Liên hệ). Đây vẫn là bản thử nghiệm đang được dùng thử thực tế, chưa cung cấp rộng rãi.</li>
 <li><strong>Phần mềm</strong>: bấm nút tải ở trên. Không có hộp vẫn mở được để xem giao diện.</li></ul>`],
       ["Hoạt động thế nào", `<p>Ba đèn hồng ngoại nháy lần lượt. Camera trừ mỗi ảnh với ảnh trước, chỉ còn lại ba điểm phản chiếu của đèn trên giác mạc, tạo thành một tam giác nhỏ. Đồng tử được tìm bằng thuật toán nhận dạng hình tròn. Tâm đồng tử gần điểm phản chiếu nào thì người bệnh đang nhìn đèn đó; phải nhìn khoảng một giây mới tính. Nhìn đúng thứ tự thì chuông reo; nếu trong vài giây không nhìn đèn tiếp theo thì lần đó bị hủy để tránh reo nhầm.</p>
 <p>Chương trình chạy trực tiếp trên Windows, giao diện có mười ngôn ngữ: tiếng Trung phồn thể, Anh, Việt, Indonesia, Mã Lai, Philippines, Thái, Khmer, Miến Điện và Lào.</p>`],
@@ -84,7 +84,7 @@ const PAGES = {
 <li>Cukup satu komputer Windows dan kotak ini.</li></ul>`],
       ["Untuk siapa dan cara mendapatkannya", `<p>Dikembangkan untuk pasien <strong>Asosiasi Penyakit Neuron Motorik Taiwan</strong>. Unit pertama dipinjamkan kepada pasien melalui Asosiasi.</p>
 <ul><li><strong>Pasien dan keluarga</strong>: hubungi Asosiasi untuk mendaftar uji coba; Asosiasi mengatur perangkat, pelatihan, dan masukan.</li>
-<li><strong>Lembaga perawatan atau peneliti lain</strong>: kirim surel kepada kami (lihat Kontak). Ini masih versi kandidat yang sedang diuji di lapangan, belum dijual sebagai produk.</li>
+<li><strong>Lembaga perawatan atau peneliti lain</strong>: kirim surel kepada kami (lihat Kontak). Ini masih versi kandidat yang sedang diuji di lapangan, belum tersedia untuk umum.</li>
 <li><strong>Perangkat lunak</strong>: gunakan tombol unduh di atas. Tanpa kotak pun bisa dibuka untuk melihat antarmukanya.</li></ul>`],
       ["Cara kerja", `<p>Tiga lampu inframerah berkedip bergantian. Kamera mengurangi setiap gambar dengan gambar sebelumnya sehingga tersisa tiga pantulan lampu di kornea yang membentuk segitiga kecil. Pupil ditemukan dengan pendeteksi lingkaran. Pantulan yang paling dekat dengan pusat pupil adalah lampu yang sedang dilihat; harus dilihat sekitar satu detik agar dihitung. Jika urutannya benar, bel berbunyi; jika lampu berikutnya tidak dilihat dalam beberapa detik, percobaan dibatalkan untuk menghindari bunyi palsu.</p>
 <p>Program berjalan langsung di Windows dengan sepuluh bahasa antarmuka: Mandarin tradisional, Inggris, Vietnam, Indonesia, Melayu, Filipina, Thai, Khmer, Burma, dan Lao.</p>`],
@@ -117,7 +117,7 @@ const PAGES = {
 <li>Cukup sebuah komputer Windows dan kotak ini.</li></ul>`],
       ["Untuk siapa dan cara mendapatkannya", `<p>Dibangunkan untuk pesakit <strong>Persatuan Penyakit Neuron Motor Taiwan</strong>. Unit pertama dipinjamkan kepada pesakit melalui Persatuan.</p>
 <ul><li><strong>Pesakit dan keluarga</strong>: hubungi Persatuan untuk memohon percubaan; Persatuan mengatur peranti, latihan dan maklum balas.</li>
-<li><strong>Pusat jagaan atau penyelidik lain</strong>: e-mel kami (lihat Hubungi). Ini masih versi calon yang sedang diuji di lapangan, belum dijual sebagai produk.</li>
+<li><strong>Pusat jagaan atau penyelidik lain</strong>: e-mel kami (lihat Hubungi). Ini masih versi calon yang sedang diuji di lapangan, belum disediakan untuk umum.</li>
 <li><strong>Perisian</strong>: gunakan butang muat turun di atas. Tanpa kotak pun boleh dibuka untuk melihat antara muka.</li></ul>`],
       ["Cara ia berfungsi", `<p>Tiga lampu inframerah berkelip bergilir. Kamera menolak setiap gambar dengan gambar sebelumnya, meninggalkan tiga pantulan lampu pada kornea yang membentuk segi tiga kecil. Anak mata dicari dengan pengesan bulatan. Pantulan yang paling hampir dengan pusat anak mata ialah lampu yang sedang dilihat; mesti dilihat kira-kira satu saat untuk dikira. Jika urutannya betul, loceng berbunyi; jika lampu seterusnya tidak dilihat dalam beberapa saat, percubaan dibatalkan untuk mengelakkan bunyi palsu.</p>
 <p>Program berjalan terus pada Windows dengan sepuluh bahasa antara muka: Cina tradisional, Inggeris, Vietnam, Indonesia, Melayu, Filipina, Thai, Khmer, Burma dan Lao.</p>`],
@@ -150,7 +150,7 @@ const PAGES = {
 <li>Isang Windows computer at ang kahon lang ang kailangan.</li></ul>`],
       ["Para kanino at paano makukuha", `<p>Ginawa ito para sa mga pasyente ng <strong>Taiwan Motor Neuron Disease Association</strong>. Ang mga unang unit ay ipinapahiram sa mga pasyente sa pamamagitan ng Asosasyon.</p>
 <ul><li><strong>Pasyente at pamilya</strong>: makipag-ugnayan sa Asosasyon para mag-apply ng trial; sila ang mag-aasikaso ng device, pagtuturo, at feedback.</li>
-<li><strong>Ibang care facility o mananaliksik</strong>: mag-email sa amin (tingnan ang Contact). Release candidate pa ito na sinusubukan sa aktwal na gamit at hindi pa ibinebenta.</li>
+<li><strong>Ibang care facility o mananaliksik</strong>: mag-email sa amin (tingnan ang Contact). Release candidate pa ito na sinusubukan sa aktwal na gamit at hindi pa available sa publiko.</li>
 <li><strong>Software</strong>: gamitin ang download button sa itaas. Mabubuksan ito kahit walang kahon para makita ang interface.</li></ul>`],
       ["Paano ito gumagana", `<p>Salitang kumikislap ang tatlong infrared na ilaw. Ibinabawas ng camera ang bawat larawan sa nauna, kaya natitira lang ang tatlong repleksyon ng ilaw sa cornea na bumubuo ng maliit na tatsulok. Hinahanap ang pupil gamit ang circle detector. Kung aling repleksyon ang pinakamalapit sa gitna ng pupil, iyon ang ilaw na tinitingnan; dapat tingnan nang mga isang segundo para mabilang. Kapag tama ang pagkakasunod, tutunog ang bell; kung hindi natingnan ang susunod na ilaw sa loob ng ilang segundo, kinakansela ang pagsubok para maiwasan ang maling tunog.</p>
 <p>Native Windows program ito na may sampung wika ng interface: Traditional Chinese, English, Vietnamese, Indonesian, Malay, Filipino, Thai, Khmer, Burmese, at Lao.</p>`],
@@ -183,7 +183,7 @@ const PAGES = {
 <li>ใช้แค่คอมพิวเตอร์ Windows หนึ่งเครื่องกับกล่องนี้</li></ul>`],
       ["สำหรับใคร และขอรับได้อย่างไร", `<p>พัฒนาขึ้นสำหรับผู้ป่วยของ<strong>สมาคมผู้ป่วยโรคเซลล์ประสาทสั่งการแห่งไต้หวัน</strong> ชุดแรกให้ผู้ป่วยยืมใช้ผ่านสมาคม</p>
 <ul><li><strong>ผู้ป่วยและครอบครัว</strong>: ติดต่อสมาคมเพื่อสมัครทดลองใช้ สมาคมจะจัดเตรียมอุปกรณ์ สอนการใช้ และรับฟังความเห็น</li>
-<li><strong>สถานดูแลหรือนักวิจัยอื่น</strong>: ส่งอีเมลถึงเรา (ดูที่ติดต่อ) ยังเป็นเวอร์ชันทดลองที่กำลังทดสอบใช้งานจริง ยังไม่จำหน่ายเป็นสินค้า</li>
+<li><strong>สถานดูแลหรือนักวิจัยอื่น</strong>: ส่งอีเมลถึงเรา (ดูที่ติดต่อ) ยังเป็นเวอร์ชันทดลองที่กำลังทดสอบใช้งานจริง ยังไม่เปิดให้ทั่วไป</li>
 <li><strong>ซอฟต์แวร์</strong>: ใช้ปุ่มดาวน์โหลดด้านบน ไม่มีกล่องก็เปิดดูหน้าจอได้</li></ul>`],
       ["ทำงานอย่างไร", `<p>ไฟอินฟราเรด 3 ดวงกะพริบสลับกัน กล้องนำภาพแต่ละภาพลบกับภาพก่อนหน้า จึงเหลือเพียงจุดสะท้อนของไฟ 3 จุดบนกระจกตา ซึ่งประกอบเป็นสามเหลี่ยมเล็ก ๆ รูม่านตาถูกค้นหาด้วยตัวตรวจจับวงกลม จุดสะท้อนที่อยู่ใกล้ศูนย์กลางรูม่านตาที่สุดคือไฟที่กำลังมอง ต้องมองประมาณหนึ่งวินาทีจึงนับ เมื่อมองถูกลำดับ กริ่งจะดัง หากไม่มองไฟดวงถัดไปภายในไม่กี่วินาที ความพยายามครั้งนั้นจะถูกยกเลิกเพื่อป้องกันการดังผิดพลาด</p>
 <p>โปรแกรมทำงานบน Windows โดยตรง มีภาษาของหน้าจอ 10 ภาษา: จีนตัวเต็ม อังกฤษ เวียดนาม อินโดนีเซีย มาเลย์ ฟิลิปปินส์ ไทย เขมร พม่า และลาว</p>`],
@@ -216,7 +216,7 @@ const PAGES = {
 <li>ត្រូវការតែកុំព្យូទ័រ Windows មួយ និងប្រអប់នេះ។</li></ul>`],
       ["សម្រាប់អ្នកណា និងទទួលបានដោយរបៀបណា", `<p>ត្រូវបានអភិវឌ្ឍសម្រាប់អ្នកជំងឺនៃ<strong>សមាគមអ្នកជំងឺជំងឺណឺរ៉ូនចលនានៃតៃវ៉ាន់</strong>។ ឈុតដំបូងត្រូវបានឲ្យអ្នកជំងឺខ្ចីប្រើតាមរយៈសមាគម។</p>
 <ul><li><strong>អ្នកជំងឺ និងគ្រួសារ</strong>៖ ទាក់ទងសមាគមដើម្បីស្នើសុំសាកល្បង សមាគមរៀបចំឧបករណ៍ ការបង្រៀន និងការប្រមូលមតិ។</li>
-<li><strong>មណ្ឌលថែទាំ ឬអ្នកស្រាវជ្រាវផ្សេង</strong>៖ សរសេរអ៊ីមែលមកយើង (មើលទំនាក់ទំនង)។ នេះនៅជាកំណែសាកល្បងដែលកំពុងត្រូវបានសាកល្បងជាក់ស្ដែង មិនទាន់លក់ជាផលិតផលទេ។</li>
+<li><strong>មណ្ឌលថែទាំ ឬអ្នកស្រាវជ្រាវផ្សេង</strong>៖ សរសេរអ៊ីមែលមកយើង (មើលទំនាក់ទំនង)។ នេះនៅជាកំណែសាកល្បងដែលកំពុងត្រូវបានសាកល្បងជាក់ស្ដែង មិនទាន់ផ្ដល់ជូនជាទូទៅទេ។</li>
 <li><strong>កម្មវិធី</strong>៖ ប្រើប៊ូតុងទាញយកខាងលើ។ គ្មានប្រអប់ក៏អាចបើកមើលចំណុចប្រទាក់បាន។</li></ul>`],
       ["ដំណើរការយ៉ាងដូចម្ដេច", `<p>ភ្លើងអ៊ីនហ្វ្រារ៉េដ ៣ ភ្លឹបភ្លែតៗឆ្លាស់គ្នា។ កាមេរ៉ាដករូបនីមួយៗចេញពីរូបមុន នៅសល់តែចំណុចឆ្លុះ ៣ នៃភ្លើងនៅលើកែវភ្នែក ដែលបង្កើតជាត្រីកោណតូចមួយ។ កូនភ្នែកត្រូវបានរកឃើញដោយឧបករណ៍រកឃើញរង្វង់។ ចំណុចឆ្លុះណាដែលនៅជិតចំណុចកណ្ដាលកូនភ្នែកបំផុត នោះជាភ្លើងដែលកំពុងមើល ត្រូវមើលប្រហែលមួយវិនាទីទើបរាប់។ បើមើលត្រូវលំដាប់ កណ្ដឹងរោទ៍ បើមិនមើលភ្លើងបន្ទាប់ក្នុងរយៈពេលពីរបីវិនាទី ការព្យាយាមនោះត្រូវបានលុបចោល ដើម្បីជៀសវាងការរោទ៍ខុស។</p>
 <p>កម្មវិធីដំណើរការផ្ទាល់លើ Windows ដោយមានភាសាចំណុចប្រទាក់ ១០៖ ចិនបុរាណ អង់គ្លេស វៀតណាម ឥណ្ឌូនេស៊ី ម៉ាឡេ ហ្វីលីពីន ថៃ ខ្មែរ ភូមា និងឡាវ។</p>`],
@@ -249,7 +249,7 @@ const PAGES = {
 <li>Windows ကွန်ပျူတာတစ်လုံးနှင့် ဤသေတ္တာသာ လိုသည်။</li></ul>`],
       ["ဘယ်သူ့အတွက်လဲ၊ ဘယ်လို ရယူမလဲ", `<p><strong>ထိုင်ဝမ် မော်တာ နယူရွန် ရောဂါ အသင်း</strong> ၏ လူနာများအတွက် တီထွင်ထားသည်။ ပထမအသုတ်ကို အသင်းမှတစ်ဆင့် လူနာများအား ငှားရမ်းသည်။</p>
 <ul><li><strong>လူနာနှင့် မိသားစု</strong>— စမ်းသုံးရန် အသင်းကို ဆက်သွယ်ပါ၊ အသင်းက ကိရိယာ၊ သင်ကြားမှုနှင့် တုံ့ပြန်ချက် စုဆောင်းမှုကို စီစဉ်ပေးသည်။</li>
-<li><strong>အခြား ပြုစုစောင့်ရှောက်ရေး ဌာန သို့မဟုတ် သုတေသီ</strong>— ကျွန်ုပ်တို့ထံ အီးမေးလ် ပို့ပါ (ဆက်သွယ်ရန် ကြည့်ပါ)။ ယခုထိ လက်တွေ့ စမ်းသပ်နေဆဲ ဗားရှင်း ဖြစ်ပြီး ထုတ်ကုန်အဖြစ် မရောင်းသေးပါ။</li>
+<li><strong>အခြား ပြုစုစောင့်ရှောက်ရေး ဌာန သို့မဟုတ် သုတေသီ</strong>— ကျွန်ုပ်တို့ထံ အီးမေးလ် ပို့ပါ (ဆက်သွယ်ရန် ကြည့်ပါ)။ ယခုထိ လက်တွေ့ စမ်းသပ်နေဆဲ ဗားရှင်း ဖြစ်ပြီး အများပြည်သူအတွက် မပေးသေးပါ။</li>
 <li><strong>ဆော့ဖ်ဝဲ</strong>— အပေါ်က ဒေါင်းလုဒ် ခလုတ်ကို သုံးပါ။ သေတ္တာ မရှိလည်း ဖွင့်၍ မျက်နှာပြင်ကို ကြည့်နိုင်သည်။</li></ul>`],
       ["ဘယ်လို အလုပ်လုပ်သလဲ", `<p>အနီအောက်ရောင်ခြည် မီးသုံးလုံး အလှည့်ကျ မှိတ်တုတ်သည်။ ကင်မရာက ပုံတစ်ပုံချင်းကို ယခင်ပုံနှင့် နုတ်သဖြင့် မျက်ကြည်လွှာပေါ်ရှိ မီး၏ အလင်းပြန်စက် သုံးစက်သာ ကျန်ပြီး တြိဂံငယ်တစ်ခု ဖြစ်သည်။ မျက်ဆံကို စက်ဝိုင်း ရှာဖွေစနစ်ဖြင့် ရှာသည်။ မျက်ဆံ ဗဟိုနှင့် အနီးဆုံး အလင်းပြန်စက်သည် ကြည့်နေသော မီး ဖြစ်ပြီး တစ်စက္ကန့်ခန့် ကြည့်မှ ရေတွက်သည်။ အစဉ်မှန်လျှင် ခေါင်းလောင်း မြည်သည်၊ စက္ကန့်အနည်းငယ်အတွင်း နောက်မီးကို မကြည့်လျှင် မှားမြည်ခြင်း ရှောင်ရန် ပယ်ဖျက်သည်။</p>
 <p>ပရိုဂရမ်သည် Windows ပေါ် တိုက်ရိုက် လည်ပတ်ပြီး မျက်နှာပြင် ဘာသာစကား ၁၀ မျိုး ရှိသည်— ရိုးရာတရုတ်၊ အင်္ဂလိပ်၊ ဗီယက်နမ်၊ အင်ဒိုနီးရှား၊ မလေး၊ ဖိလစ်ပိုင်၊ ထိုင်း၊ ခမာ၊ မြန်မာနှင့် လာအို။</p>`],
@@ -282,7 +282,7 @@ const PAGES = {
 <li>ໃຊ້ພຽງຄອມພິວເຕີ Windows ໜຶ່ງເຄື່ອງກັບກ່ອງນີ້.</li></ul>`],
       ["ສຳລັບໃຜ ແລະຂໍຮັບໄດ້ແນວໃດ", `<p>ພັດທະນາຂຶ້ນສຳລັບຄົນເຈັບຂອງ<strong>ສະມາຄົມພະຍາດເຊລປະສາດສັ່ງການແຫ່ງໄຕ້ຫວັນ</strong>. ຊຸດທຳອິດໃຫ້ຄົນເຈັບຢືມໃຊ້ຜ່ານສະມາຄົມ.</p>
 <ul><li><strong>ຄົນເຈັບແລະຄອບຄົວ</strong>: ຕິດຕໍ່ສະມາຄົມເພື່ອສະໝັກທົດລອງໃຊ້; ສະມາຄົມຈັດອຸປະກອນ ສອນການໃຊ້ ແລະຮັບຟັງຄຳເຫັນ.</li>
-<li><strong>ສະຖານດູແລຫຼືນັກຄົ້ນຄວ້າອື່ນ</strong>: ສົ່ງອີເມວຫາພວກເຮົາ (ເບິ່ງຕິດຕໍ່). ຍັງເປັນເວີຊັນທົດລອງທີ່ກຳລັງທົດສອບໃຊ້ແທ້ ຍັງບໍ່ຂາຍເປັນສິນຄ້າ.</li>
+<li><strong>ສະຖານດູແລຫຼືນັກຄົ້ນຄວ້າອື່ນ</strong>: ສົ່ງອີເມວຫາພວກເຮົາ (ເບິ່ງຕິດຕໍ່). ຍັງເປັນເວີຊັນທົດລອງທີ່ກຳລັງທົດສອບໃຊ້ແທ້ ຍັງບໍ່ເປີດໃຫ້ທົ່ວໄປ.</li>
 <li><strong>ຊອບແວ</strong>: ໃຊ້ປຸ່ມດາວໂຫຼດຂ້າງເທິງ. ບໍ່ມີກ່ອງກໍເປີດເບິ່ງໜ້າຈໍໄດ້.</li></ul>`],
       ["ເຮັດວຽກແນວໃດ", `<p>ໄຟອິນຟຣາເຣດ 3 ດວງກະພິບສະຫຼັບກັນ. ກ້ອງເອົາພາບແຕ່ລະພາບລົບກັບພາບກ່ອນ ຈຶ່ງເຫຼືອແຕ່ຈຸດສະທ້ອນຂອງໄຟ 3 ຈຸດເທິງກະຈົກຕາ ເປັນສາມຫຼ່ຽມນ້ອຍໆ. ຮູມ່ານຕາຖືກຊອກດ້ວຍຕົວກວດຈັບວົງມົນ. ຈຸດສະທ້ອນທີ່ໃກ້ໃຈກາງຮູມ່ານຕາທີ່ສຸດຄືໄຟທີ່ກຳລັງເບິ່ງ ຕ້ອງເບິ່ງປະມານໜຶ່ງວິນາທີຈຶ່ງນັບ. ເບິ່ງຖືກລຳດັບ ກະດິ່ງຈະດັງ; ຖ້າບໍ່ເບິ່ງໄຟດວງຕໍ່ໄປພາຍໃນສອງສາມວິນາທີ ຄັ້ງນັ້ນຈະຖືກຍົກເລີກເພື່ອປ້ອງກັນການດັງຜິດ.</p>
 <p>ໂປຣແກຣມແລ່ນເທິງ Windows ໂດຍກົງ ມີພາສາໜ້າຈໍ 10 ພາສາ: ຈີນຕົວເຕັມ ອັງກິດ ຫວຽດນາມ ອິນໂດເນເຊຍ ມາເລ ຟີລິບປິນ ໄທ ຂະເໝນ ມຽນມາ ແລະລາວ.</p>`],
@@ -315,7 +315,7 @@ const PAGES = {
 <li>Presiza de'it komputadór Windows ida no kaixa ne'e.</li></ul>`],
       ["Ba sé no hetan oinsá", `<p>Dezenvolve ba moras-na'in sira husi <strong>Asosiasaun Moras Neurón Motor Taiwan</strong>. Unidade dahuluk sira empresta ba moras-na'in liu husi Asosiasaun.</p>
 <ul><li><strong>Moras-na'in no família</strong>: kontaktu Asosiasaun atu husu koko; sira organiza ekipamentu, treinu no feedback.</li>
-<li><strong>Sentru kuidadu ka peskizadór seluk</strong>: haruka email mai ami (haree Kontaktu). Ne'e sei versaun kandidatu ne'ebé koko hela iha terenu, seidauk fa'an nu'udar produtu.</li>
+<li><strong>Sentru kuidadu ka peskizadór seluk</strong>: haruka email mai ami (haree Kontaktu). Ne'e sei versaun kandidatu ne'ebé koko hela iha terenu, seidauk disponível ba públiku.</li>
 <li><strong>Software</strong>: uza butaun download iha leten. La ho kaixa mós bele loke atu haree interfase.</li></ul>`],
       ["Funsiona oinsá", `<p>Ahi infravermellu tolu lakan tuir malu. Kámara hasai imajen ida-idak husi imajen molok, hela de'it refleksaun tolu husi ahi iha kórnea, ne'ebé forma triángulu ki'ik ida. Pupila hetan ho detektór sírkulu. Refleksaun ne'ebé besik liu ba sentru pupila mak ahi ne'ebé haree hela; tenke haree segundu ida atu konta. Bainhira haree tuir orden loos, sino tanis; se la haree ahi tuir mai iha segundu balu, tentativa kansela atu evita tanis sala.</p>
 <p>Programa la'o diretamente iha Windows ho lian interfase sanulu: Xinés tradisionál, Inglés, Vietnamita, Indonéziu, Malaiu, Filipinu, Tailandés, Khmer, Birmanés no Lao.</p>`],
@@ -348,7 +348,7 @@ const PAGES = {
 <li>Basta um computador Windows e a caixa.</li></ul>`],
       ["Para quem é e como obter", `<p>Foi desenvolvida para os doentes da <strong>Associação Taiwanesa de Doença do Neurónio Motor</strong>. As primeiras unidades são emprestadas aos doentes através da Associação.</p>
 <ul><li><strong>Doentes e famílias</strong>: contactem a Associação para pedir um período de experiência; ela trata do equipamento, da formação e da recolha de opiniões.</li>
-<li><strong>Outras instituições de cuidados ou investigadores</strong>: escrevam-nos (ver Contacto). Trata-se ainda de uma versão candidata em testes no terreno, não vendida como produto.</li>
+<li><strong>Outras instituições de cuidados ou investigadores</strong>: escrevam-nos (ver Contacto). Trata-se ainda de uma versão candidata em testes no terreno, ainda não disponível ao público.</li>
 <li><strong>Software</strong>: use o botão de transferência acima. Abre mesmo sem a caixa, para ver a interface.</li></ul>`],
       ["Como funciona", `<p>As três luzes infravermelhas piscam à vez. A câmara subtrai cada imagem à anterior, deixando só os três reflexos das luzes na córnea, que formam um pequeno triângulo. A pupila é localizada com um detetor de círculos. O reflexo mais próximo do centro da pupila indica a luz que está a ser olhada; é preciso olhar cerca de um segundo para contar. Se a ordem estiver certa, a campainha toca; se a luz seguinte não for olhada em poucos segundos, a tentativa é cancelada para evitar falsos alarmes.</p>
 <p>O programa corre diretamente no Windows e tem dez línguas de interface: chinês tradicional, inglês, vietnamita, indonésio, malaio, filipino, tailandês, khmer, birmanês e lao.</p>`],
