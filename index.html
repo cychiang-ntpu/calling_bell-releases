@@ -43,6 +43,9 @@
   .en { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--line); }
   .en h2 { margin-top: 0; }
   nav a { margin-right: 14px; }
+  .langbar { margin: 0 0 10px; }
+  .langbar select { font: inherit; padding: 6px 8px; border-radius: 6px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); }
+  #page-i18n h2 { margin-top: 32px; }
 </style>
 </head>
 <body>
@@ -50,13 +53,15 @@
 <header>
   <h1>CRCL-BELL 紅外線非接觸式眼控叫人鈴</h1>
   <p class="tagline">讓無法說話、無法動手的病友，用「看」來叫人。</p>
-  <nav>
+  <p class="langbar"><label for="lang">Language / 語言</label> <select id="lang" aria-label="language"></select></p>
+  <nav id="nav-zh">
     <a href="#what">這是什麼</a><a href="#who">給誰用</a><a href="#how">怎麼運作</a>
     <a href="#install">安裝</a><a href="#changelog">版本紀錄</a><a href="#team">計畫與團隊</a><a href="#contact">聯絡</a>
     <a href="#english">English</a>
   </nav>
 </header>
 
+<div id="page-zh">
 <div class="download" id="download">
   <p><strong>Windows 版軟體</strong> <span class="ver" id="ver">（讀取版本中…）</span></p>
   <p><a class="btn" id="dl" href="https://github.com/cychiang-ntpu/calling_bell-releases/releases">下載安裝檔</a>
@@ -144,15 +149,66 @@
   <li>紅外線安全性目前只有團隊的初步估算與量測，<strong>尚未取得第三方檢測報告</strong>；使用時請遵守上方的距離與時間建議。</li>
 </ul>
 
-<section class="en" id="english">
-<h2>English summary</h2>
-<p><strong>CRCL-BELL</strong> is a low-cost, calibration-free, non-contact <strong>eye-controlled call bell</strong> for people with ALS/MND who can no longer speak or move their hands. A small box with three invisible infrared LEDs and a camera sits 50–70 cm in front of the patient; looking at the LEDs in a set order (e.g. right, then left, about one second each) rings a bell on a Windows PC. Nothing touches the patient and no calibration is needed. Infrared exposure has so far only been estimated from component data and measured by the team (below IEC 62471 limits at the intended 50–70 cm distance); a third-party photobiological safety report is planned but not yet obtained, so please keep the stated distance and stop if any eye discomfort occurs.</p>
-<p>It works by active illumination: the LEDs flash in turn, leaving three corneal glints that form a small triangle; the pupil is located with a Hough circle, and the glint nearest the pupil centre tells which LED is being watched. The software is a native C Windows program with a ten-language interface (Traditional Chinese, English, Vietnamese, Indonesian, Malay, Filipino, Thai, Khmer, Burmese, Lao). Installers are on the <a href="https://github.com/cychiang-ntpu/calling_bell-releases/releases">Releases</a> page; the program checks there for updates.</p>
-<p>Developed by the SMSPL lab, Department of Communication Engineering, <strong>National Taipei University</strong>, in cooperation with the <strong>Taiwan Motor Neuron Disease Association</strong>, under the 2026 "Eye-controlled call bell for the MND Association" project. PI: Prof. Chen-Yu Chiang (team members are listed in the Chinese section above). Contact: <a href="mailto:cychiang@mail.ntpu.edu.tw">cychiang@mail.ntpu.edu.tw</a>. Release candidates are under field testing; this is an assistive call device, not a medical device.</p>
-</section>
+</div>
+
+<div id="page-i18n" hidden></div>
 
 <footer>國立臺北大學通訊工程學系 SMSPL 實驗室 × 社團法人中華民國運動神經元疾病病友協會 · 安裝檔與發布說明在 <a href="https://github.com/cychiang-ntpu/calling_bell-releases">GitHub</a></footer>
 </main>
+<script src="pages.js"></script>
+<script>
+/*
+ * 語言切換：zh-TW 是 index.html 裡的完整版，其餘語言從 pages.js 渲染精簡版。
+ * 預設跟瀏覽器語言；選過的記在 localStorage。
+ */
+(() => {
+  const H1 = document.querySelector('header h1'), TAG = document.querySelector('header .tagline');
+  const ZH_TITLE = H1.textContent, ZH_TAG = TAG.textContent;
+  const sel = document.getElementById('lang');
+  const codes = ['zh-TW'].concat(Object.keys(PAGES));
+  for (const c of codes) {
+    const o = document.createElement('option'); o.value = c;
+    o.textContent = c === 'zh-TW' ? '繁體中文' : PAGES[c].name; sel.appendChild(o);
+  }
+  function esc(t) { return t.replace(/[&<>]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[ch])); }
+  function render(code) {
+    const zh = code === 'zh-TW';
+    document.documentElement.lang = zh ? 'zh-Hant' : code;
+    document.getElementById('page-zh').hidden = !zh;
+    document.getElementById('nav-zh').hidden = !zh;
+    const box = document.getElementById('page-i18n');
+    box.hidden = zh;
+    if (zh) { H1.textContent = ZH_TITLE; TAG.textContent = ZH_TAG; return; }
+    const P = PAGES[code];
+    H1.textContent = P.title; TAG.textContent = P.tagline;
+    let html = `<div class="download"><p><strong>${esc(P.download)}</strong> <span class="ver" id="ver2"></span></p>
+<p><a class="btn" id="dl2" href="https://github.com/cychiang-ntpu/calling_bell-releases/releases">${esc(P.download_btn)}</a>
+ &nbsp; <a href="https://github.com/cychiang-ntpu/calling_bell-releases/releases">${esc(P.releases)}</a></p></div>`;
+    for (const [h, body] of P.sections) html += `<h2>${esc(h)}</h2>${body}`;
+    html += `<p style="color:var(--muted)"><a href="#" data-zh="1">繁體中文完整版（含版本紀錄）</a></p>`;
+    box.innerHTML = html;
+    box.querySelector('[data-zh]').onclick = (e) => { e.preventDefault(); sel.value = 'zh-TW'; apply('zh-TW'); };
+    if (window.__latest) fillLatest(window.__latest);
+  }
+  function apply(code) { render(code); try { localStorage.setItem('crcl.lang', code); } catch (e) {} }
+  sel.onchange = () => apply(sel.value);
+  // 預設語言：記住的 → 瀏覽器的 → 中文
+  let code = null;
+  try { code = localStorage.getItem('crcl.lang'); } catch (e) {}
+  if (!code || !codes.includes(code)) {
+    const nav = ((navigator.languages && navigator.languages[0]) || navigator.language || '').toLowerCase();
+    const map = { zh: 'zh-TW', en: 'en', vi: 'vi', id: 'id', ms: 'ms', fil: 'fil', tl: 'fil', th: 'th', km: 'km', my: 'my', lo: 'lo', tet: 'tet', pt: 'pt' };
+    code = map[nav.split('-')[0]] || 'zh-TW';
+  }
+  sel.value = code; render(code);
+  window.fillLatest = (rel) => {
+    const asset = rel.assets.find(a => a.name.endsWith('.exe'));
+    const v = document.getElementById('ver2'), d = document.getElementById('dl2');
+    if (v) v.textContent = rel.tag_name + ' · ' + new Date(rel.published_at).toLocaleDateString() + ' · ' + (asset.size / 1048576).toFixed(1) + ' MB';
+    if (d) d.href = asset.browser_download_url;
+  };
+})();
+</script>
 <script>
 /* 最新版本與下載連結：直接問 GitHub 的 Releases（包含候選版）。失敗就維持指到 Releases 頁。 */
 (async () => {
@@ -167,6 +223,7 @@
     const dl = document.getElementById('dl');
     dl.href = asset.browser_download_url;
     dl.textContent = '下載 ' + rel.tag_name + ' 安裝檔';
+    window.__latest = rel; if (window.fillLatest) window.fillLatest(rel);
   } catch (e) {
     document.getElementById('ver').textContent = '';
   }
