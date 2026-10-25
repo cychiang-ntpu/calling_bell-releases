@@ -91,7 +91,8 @@
 </ol>
 <p>程式是純 C 寫的原生 Windows 程式，不需要安裝其他軟體；介面有繁體中文、英文、越南文、印尼文、馬來文、菲律賓文、泰文、高棉文八種語言，照顧外籍看護的需求。</p>
 <h3>紅外線安全</h3>
-<p>使用的是與電視遙控器同類的近紅外線，依零件規格估算，在 50 到 70 公分的使用距離下遠低於國際標準（IEC 62471）的限值；團隊並規劃委託第三方檢測單位出具整機的正式報告。使用建議：裝置放在 50 到 70 公分處，不要把眼睛貼近小燈直視；若覺得眼睛疲勞或不舒服，請立刻停止使用並告知團隊。</p>
+<p>裝置使用近紅外線 LED（與電視遙控器同一類的光，眼睛看不見）。團隊目前只做了<strong>依零件規格的初步估算與自行量測</strong>，結果顯示在設計的使用距離（50 到 70 公分）下，曝露量低於國際標準 IEC 62471 的限值；<strong>這還不是正式的安全認證</strong>，整機送第三方檢測單位出具光生物安全報告的工作正在規劃中，尚未完成。</p>
+<p>在正式報告出來之前，請務必遵守：裝置放在 50 到 70 公分處，不要靠得更近；不要把眼睛貼近小燈直視；每次使用的時間不要超過需要；若眼睛疲勞、乾澀、不舒服或有任何疑慮，請立刻停止使用並告知團隊。有眼疾、剛做過眼部手術或對光敏感的人，使用前請先詢問醫師。</p>
 
 <h2 id="install">安裝</h2>
 <p>需求：Windows 10 或 11（64 位元）的筆電或桌機，兩個空的 USB 孔（攝影機與控制線各一），喇叭可以出聲。安裝不需要系統管理員密碼。</p>
@@ -126,11 +127,12 @@
 <ul>
   <li>目前為<strong>候選版</strong>（版本號帶 rc），正在協會的實地測試中；驗收目標為觸發正確率高於 90%、誤響低於每小時 0.2 次，尚待以交付的成品實際驗證。</li>
   <li>本系統是輔助溝通的叫人工具，<strong>不是醫療器材</strong>，不能取代人員的照護與巡視。</li>
+  <li>紅外線安全性目前只有團隊的初步估算與量測，<strong>尚未取得第三方檢測報告</strong>；使用時請遵守上方的距離與時間建議。</li>
 </ul>
 
 <section class="en" id="english">
 <h2>English summary</h2>
-<p><strong>CRCL-BELL</strong> is a low-cost, calibration-free, non-contact <strong>eye-controlled call bell</strong> for people with ALS/MND who can no longer speak or move their hands. A small box with three invisible infrared LEDs and a camera sits 50–70 cm in front of the patient; looking at the LEDs in a set order (e.g. right, then left, about one second each) rings a bell on a Windows PC. Nothing touches the patient and no calibration is needed.</p>
+<p><strong>CRCL-BELL</strong> is a low-cost, calibration-free, non-contact <strong>eye-controlled call bell</strong> for people with ALS/MND who can no longer speak or move their hands. A small box with three invisible infrared LEDs and a camera sits 50–70 cm in front of the patient; looking at the LEDs in a set order (e.g. right, then left, about one second each) rings a bell on a Windows PC. Nothing touches the patient and no calibration is needed. Infrared exposure has so far only been estimated from component data and measured by the team (below IEC 62471 limits at the intended 50–70 cm distance); a third-party photobiological safety report is planned but not yet obtained, so please keep the stated distance and stop if any eye discomfort occurs.</p>
 <p>It works by active illumination: the LEDs flash in turn, leaving three corneal glints that form a small triangle; the pupil is located with a Hough circle, and the glint nearest the pupil centre tells which LED is being watched. The software is a native C Windows program with an eight-language interface (Traditional Chinese, English, Vietnamese, Indonesian, Malay, Filipino, Thai, Khmer). Installers are on the <a href="https://github.com/cychiang-ntpu/calling_bell-releases/releases">Releases</a> page; the program checks there for updates.</p>
 <p>Developed by the SMSPL lab, Department of Communication Engineering, <strong>National Taipei University</strong>, in cooperation with the <strong>Taiwan Motor Neuron Disease Association</strong>, under the 2026 "Eye-controlled call bell for the MND Association" project. PI: Prof. Chen-Yu Chiang (team members are listed in the Chinese section above). Contact: <a href="mailto:cychiang@mail.ntpu.edu.tw">cychiang@mail.ntpu.edu.tw</a>. Release candidates are under field testing; this is an assistive call device, not a medical device.</p>
 </section>
