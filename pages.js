@@ -26,10 +26,8 @@ const PAGES = {
       ["Installing", `<p>Needs a Windows 10 or 11 (64-bit) laptop or desktop, two free USB ports (camera and control cable) and a working speaker. No administrator password is needed.</p>
 <ol><li>Download the installer with the button above and run it.</li>
 <li>If a blue “Windows protected your PC” screen appears: click <strong>More info → Run anyway</strong>.</li>
-<li>If “Smart App Control has blocked this app” appears (new Windows 11 PCs): go to Settings → Privacy & security → Windows Security → App & browser control → Smart App Control and turn it <strong>Off</strong>, then install again.</li>
 <li>The first time, the computer needs internet once: press the button in the program to install the control-box driver.</li>
-<li>When a new version exists, the program shows a notice at the top; press “Download and install”. Upgrading keeps your settings.</li></ol>
-<p>The installer is not yet digitally signed (a code-signing certificate is being applied for), so steps 2 and 3 are normal. Download only from this page or the GitHub Releases page.</p>`],
+<li>When a new version exists, the program shows a notice at the top; press “Download and install”. Upgrading keeps your settings.</li></ol>`],
       ["Project and team", `<p>Supported by the 2026 project “Eye-controlled call bell for the MND Association”, a cooperation between <strong>National Taipei University</strong> (SMSPL Lab, Department of Communication Engineering) and the <strong>Taiwan Motor Neuron Disease Association</strong>. Principal investigator: Prof. Chen-Yu Chiang; the full team is listed in the Chinese version of this page.</p>`],
       ["Contact", `<ul><li><strong>Technical and cooperation</strong>: Prof. Chen-Yu Chiang, National Taipei University — <a href="mailto:cychiang@mail.ntpu.edu.tw">cychiang@mail.ntpu.edu.tw</a></li>
 <li><strong>Patients applying for a trial</strong>: the Taiwan Motor Neuron Disease Association.</li>
@@ -58,10 +56,8 @@ const PAGES = {
       ["Cài đặt", `<p>Cần máy tính Windows 10 hoặc 11 (64-bit), hai cổng USB trống (camera và dây điều khiển), loa phát được tiếng. Không cần mật khẩu quản trị.</p>
 <ol><li>Tải bộ cài bằng nút ở trên và chạy.</li>
 <li>Nếu hiện màn hình xanh “Windows đã bảo vệ PC của bạn”: bấm <strong>Thông tin khác → Vẫn chạy</strong>.</li>
-<li>Nếu hiện “Smart App Control đã chặn ứng dụng này” (máy Windows 11 mới): vào Settings → Privacy & security → Windows Security → App & browser control → Smart App Control, chọn <strong>Tắt</strong>, rồi cài lại.</li>
 <li>Lần đầu dùng, máy cần có internet một lần: bấm nút trong chương trình để cài driver hộp điều khiển.</li>
-<li>Khi có phiên bản mới, chương trình báo ở đầu màn hình; bấm “Tải và cài đặt”. Nâng cấp không làm mất cài đặt của bạn.</li></ol>
-<p>Bộ cài chưa có chữ ký số (đang xin chứng chỉ), nên bước 2 và 3 là bình thường. Chỉ tải từ trang này hoặc trang Releases trên GitHub.</p>`],
+<li>Khi có phiên bản mới, chương trình báo ở đầu màn hình; bấm “Tải và cài đặt”. Nâng cấp không làm mất cài đặt của bạn.</li></ol>`],
       ["Dự án và nhóm", `<p>Được hỗ trợ bởi dự án năm 2026 “Chuông gọi điều khiển bằng mắt cho Hiệp hội bệnh thần kinh vận động”, hợp tác giữa <strong>Đại học Quốc lập Đài Bắc</strong> (phòng thí nghiệm SMSPL, Khoa Kỹ thuật Truyền thông) và <strong>Hiệp hội bệnh nhân bệnh thần kinh vận động Đài Loan</strong>. Chủ nhiệm: PGS. Chen-Yu Chiang (江振宇); danh sách đầy đủ ở bản tiếng Trung của trang này.</p>`],
       ["Liên hệ", `<ul><li><strong>Kỹ thuật và hợp tác</strong>: PGS. Chen-Yu Chiang, Đại học Quốc lập Đài Bắc — <a href="mailto:cychiang@mail.ntpu.edu.tw">cychiang@mail.ntpu.edu.tw</a></li>
 <li><strong>Người bệnh đăng ký dùng thử</strong>: Hiệp hội bệnh nhân bệnh thần kinh vận động Đài Loan.</li>
@@ -90,10 +86,8 @@ const PAGES = {
       ["Pemasangan", `<p>Perlu laptop/desktop Windows 10 atau 11 (64-bit), dua port USB kosong (kamera dan kabel kontrol), dan speaker yang berbunyi. Tidak perlu kata sandi administrator.</p>
 <ol><li>Unduh penginstal dengan tombol di atas lalu jalankan.</li>
 <li>Jika muncul layar biru “Windows protected your PC”: klik <strong>More info → Run anyway</strong>.</li>
-<li>Jika muncul “Smart App Control has blocked this app” (PC Windows 11 baru): buka Settings → Privacy & security → Windows Security → App & browser control → Smart App Control, pilih <strong>Off</strong>, lalu pasang lagi.</li>
 <li>Saat pertama kali, komputer perlu internet sekali: tekan tombol di program untuk memasang driver kotak kontrol.</li>
-<li>Jika ada versi baru, program menampilkan pemberitahuan di bagian atas; tekan “Unduh dan pasang”. Pembaruan tidak menghapus pengaturan Anda.</li></ol>
-<p>Penginstal belum ditandatangani secara digital (sertifikat sedang diajukan), jadi langkah 2 dan 3 normal. Unduh hanya dari halaman ini atau halaman Releases di GitHub.</p>`],
+<li>Jika ada versi baru, program menampilkan pemberitahuan di bagian atas; tekan “Unduh dan pasang”. Pembaruan tidak menghapus pengaturan Anda.</li></ol>`],
       ["Proyek dan tim", `<p>Didukung oleh proyek 2026 “Bel panggil kendali mata untuk Asosiasi MND”, kerja sama <strong>National Taipei University</strong> (Lab SMSPL, Departemen Teknik Komunikasi) dan <strong>Asosiasi Penyakit Neuron Motorik Taiwan</strong>. Peneliti utama: Prof. Chen-Yu Chiang (江振宇); daftar tim lengkap ada di versi Mandarin halaman ini.</p>`],
       ["Kontak", `<ul><li><strong>Teknis dan kerja sama</strong>: Prof. Chen-Yu Chiang, National Taipei University — <a href="mailto:cychiang@mail.ntpu.edu.tw">cychiang@mail.ntpu.edu.tw</a></li>
 <li><strong>Pasien yang ingin uji coba</strong>: Asosiasi Penyakit Neuron Motorik Taiwan.</li>
@@ -122,10 +116,8 @@ const PAGES = {
       ["Pemasangan", `<p>Perlu komputer riba/meja Windows 10 atau 11 (64-bit), dua port USB kosong (kamera dan kabel kawalan) dan pembesar suara yang berbunyi. Tidak perlu kata laluan pentadbir.</p>
 <ol><li>Muat turun pemasang dengan butang di atas dan jalankan.</li>
 <li>Jika skrin biru “Windows protected your PC” muncul: klik <strong>More info → Run anyway</strong>.</li>
-<li>Jika “Smart App Control has blocked this app” muncul (PC Windows 11 baharu): buka Settings → Privacy & security → Windows Security → App & browser control → Smart App Control, pilih <strong>Off</strong>, kemudian pasang semula.</li>
 <li>Kali pertama, komputer perlu internet sekali: tekan butang dalam program untuk memasang pemacu kotak kawalan.</li>
-<li>Apabila ada versi baharu, program memaparkan notis di bahagian atas; tekan “Muat turun dan pasang”. Naik taraf mengekalkan tetapan anda.</li></ol>
-<p>Pemasang belum ditandatangani secara digital (sijil sedang dipohon), jadi langkah 2 dan 3 adalah normal. Muat turun hanya dari halaman ini atau halaman Releases di GitHub.</p>`],
+<li>Apabila ada versi baharu, program memaparkan notis di bahagian atas; tekan “Muat turun dan pasang”. Naik taraf mengekalkan tetapan anda.</li></ol>`],
       ["Projek dan pasukan", `<p>Disokong oleh projek 2026 “Loceng panggil kawalan mata untuk Persatuan MND”, kerjasama <strong>National Taipei University</strong> (Makmal SMSPL, Jabatan Kejuruteraan Komunikasi) dan <strong>Persatuan Penyakit Neuron Motor Taiwan</strong>. Penyiasat utama: Prof. Chen-Yu Chiang (江振宇); senarai penuh pasukan ada dalam versi Cina halaman ini.</p>`],
       ["Hubungi", `<ul><li><strong>Teknikal dan kerjasama</strong>: Prof. Chen-Yu Chiang, National Taipei University — <a href="mailto:cychiang@mail.ntpu.edu.tw">cychiang@mail.ntpu.edu.tw</a></li>
 <li><strong>Pesakit memohon percubaan</strong>: Persatuan Penyakit Neuron Motor Taiwan.</li>
@@ -154,10 +146,8 @@ const PAGES = {
       ["Pag-install", `<p>Kailangan ng Windows 10 o 11 (64-bit) na laptop o desktop, dalawang bakanteng USB port (camera at control cable), at gumaganang speaker. Hindi kailangan ng administrator password.</p>
 <ol><li>I-download ang installer gamit ang button sa itaas at patakbuhin.</li>
 <li>Kung lumabas ang asul na “Windows protected your PC”: i-click ang <strong>More info → Run anyway</strong>.</li>
-<li>Kung lumabas ang “Smart App Control has blocked this app” (bagong Windows 11 PC): pumunta sa Settings → Privacy & security → Windows Security → App & browser control → Smart App Control at piliin ang <strong>Off</strong>, saka i-install ulit.</li>
 <li>Sa unang gamit, kailangan ng internet nang isang beses: pindutin ang button sa program para i-install ang driver ng control box.</li>
-<li>Kapag may bagong bersyon, may lalabas na abiso sa itaas ng program; pindutin ang “Download and install”. Hindi mabubura ang settings mo sa pag-upgrade.</li></ol>
-<p>Wala pang digital signature ang installer (inaaplayan pa ang certificate), kaya normal ang hakbang 2 at 3. Mag-download lang mula sa pahinang ito o sa Releases page sa GitHub.</p>`],
+<li>Kapag may bagong bersyon, may lalabas na abiso sa itaas ng program; pindutin ang “Download and install”. Hindi mabubura ang settings mo sa pag-upgrade.</li></ol>`],
       ["Proyekto at team", `<p>Suportado ng 2026 na proyektong “Eye-controlled call bell para sa MND Association”, kooperasyon ng <strong>National Taipei University</strong> (SMSPL Lab, Department of Communication Engineering) at ng <strong>Taiwan Motor Neuron Disease Association</strong>. Principal investigator: Prof. Chen-Yu Chiang (江振宇); nasa Chinese na bersyon ng pahinang ito ang buong listahan ng team.</p>`],
       ["Contact", `<ul><li><strong>Teknikal at kooperasyon</strong>: Prof. Chen-Yu Chiang, National Taipei University — <a href="mailto:cychiang@mail.ntpu.edu.tw">cychiang@mail.ntpu.edu.tw</a></li>
 <li><strong>Pasyenteng mag-a-apply ng trial</strong>: Taiwan Motor Neuron Disease Association.</li>
@@ -186,10 +176,8 @@ const PAGES = {
       ["การติดตั้ง", `<p>ต้องใช้คอมพิวเตอร์ Windows 10 หรือ 11 (64 บิต) ช่อง USB ว่าง 2 ช่อง (กล้องและสายควบคุม) และลำโพงที่มีเสียง ไม่ต้องใช้รหัสผู้ดูแลระบบ</p>
 <ol><li>ดาวน์โหลดตัวติดตั้งด้วยปุ่มด้านบนแล้วเรียกใช้</li>
 <li>หากขึ้นหน้าจอสีน้ำเงิน “Windows protected your PC”: คลิก <strong>More info → Run anyway</strong></li>
-<li>หากขึ้น “Smart App Control has blocked this app” (เครื่อง Windows 11 ใหม่): ไปที่ Settings → Privacy & security → Windows Security → App & browser control → Smart App Control เลือก <strong>Off</strong> แล้วติดตั้งใหม่</li>
 <li>ครั้งแรกคอมพิวเตอร์ต้องต่ออินเทอร์เน็ตหนึ่งครั้ง: กดปุ่มในโปรแกรมเพื่อติดตั้งไดรเวอร์กล่องควบคุม</li>
-<li>เมื่อมีเวอร์ชันใหม่ โปรแกรมจะแจ้งด้านบน กด “ดาวน์โหลดและติดตั้ง” การอัปเกรดไม่ลบการตั้งค่าของคุณ</li></ol>
-<p>ตัวติดตั้งยังไม่มีลายเซ็นดิจิทัล (กำลังขอใบรับรอง) ขั้นตอนที่ 2 และ 3 จึงเป็นเรื่องปกติ ดาวน์โหลดจากหน้านี้หรือหน้า Releases บน GitHub เท่านั้น</p>`],
+<li>เมื่อมีเวอร์ชันใหม่ โปรแกรมจะแจ้งด้านบน กด “ดาวน์โหลดและติดตั้ง” การอัปเกรดไม่ลบการตั้งค่าของคุณ</li></ol>`],
       ["โครงการและทีมงาน", `<p>สนับสนุนโดยโครงการปี 2026 “กริ่งเรียกควบคุมด้วยสายตาสำหรับสมาคม MND” ความร่วมมือระหว่าง<strong>มหาวิทยาลัยแห่งชาติไทเป</strong> (ห้องปฏิบัติการ SMSPL ภาควิชาวิศวกรรมการสื่อสาร) กับ<strong>สมาคมผู้ป่วยโรคเซลล์ประสาทสั่งการแห่งไต้หวัน</strong> หัวหน้าโครงการ: ศ. Chen-Yu Chiang (江振宇) รายชื่อทีมงานทั้งหมดอยู่ในหน้าภาษาจีน</p>`],
       ["ติดต่อ", `<ul><li><strong>ด้านเทคนิคและความร่วมมือ</strong>: ศ. Chen-Yu Chiang มหาวิทยาลัยแห่งชาติไทเป — <a href="mailto:cychiang@mail.ntpu.edu.tw">cychiang@mail.ntpu.edu.tw</a></li>
 <li><strong>ผู้ป่วยสมัครทดลองใช้</strong>: สมาคมผู้ป่วยโรคเซลล์ประสาทสั่งการแห่งไต้หวัน</li>
@@ -218,10 +206,8 @@ const PAGES = {
       ["ការដំឡើង", `<p>ត្រូវការកុំព្យូទ័រ Windows 10 ឬ 11 (64 ប៊ីត) រន្ធ USB ទំនេរ ២ (កាមេរ៉ា និងខ្សែបញ្ជា) និងឧបករណ៍បំពងសំឡេងដែលឮ។ មិនត្រូវការពាក្យសម្ងាត់អ្នកគ្រប់គ្រងទេ។</p>
 <ol><li>ទាញយកកម្មវិធីដំឡើងដោយប៊ូតុងខាងលើ រួចដំណើរការ។</li>
 <li>បើលេចអេក្រង់ពណ៌ខៀវ “Windows protected your PC”៖ ចុច <strong>More info → Run anyway</strong>។</li>
-<li>បើលេច “Smart App Control has blocked this app” (កុំព្យូទ័រ Windows 11 ថ្មី)៖ ទៅ Settings → Privacy & security → Windows Security → App & browser control → Smart App Control ជ្រើស <strong>Off</strong> រួចដំឡើងម្ដងទៀត។</li>
 <li>លើកដំបូង កុំព្យូទ័រត្រូវមានអ៊ីនធឺណិតម្ដង៖ ចុចប៊ូតុងក្នុងកម្មវិធីដើម្បីដំឡើងកម្មវិធីបញ្ជាប្រអប់បញ្ជា។</li>
-<li>ពេលមានកំណែថ្មី កម្មវិធីបង្ហាញការជូនដំណឹងនៅខាងលើ ចុច «ទាញយក និងដំឡើង»។ ការធ្វើបច្ចុប្បន្នភាពរក្សាការកំណត់របស់អ្នក។</li></ol>
-<p>កម្មវិធីដំឡើងមិនទាន់មានហត្ថលេខាឌីជីថលទេ (កំពុងស្នើសុំវិញ្ញាបនបត្រ) ដូច្នេះជំហាន ២ និង ៣ គឺធម្មតា។ ទាញយកតែពីទំព័រនេះ ឬទំព័រ Releases លើ GitHub ប៉ុណ្ណោះ។</p>`],
+<li>ពេលមានកំណែថ្មី កម្មវិធីបង្ហាញការជូនដំណឹងនៅខាងលើ ចុច «ទាញយក និងដំឡើង»។ ការធ្វើបច្ចុប្បន្នភាពរក្សាការកំណត់របស់អ្នក។</li></ol>`],
       ["គម្រោង និងក្រុមការងារ", `<p>គាំទ្រដោយគម្រោងឆ្នាំ 2026 «កណ្ដឹងហៅបញ្ជាដោយភ្នែកសម្រាប់សមាគម MND» ជាកិច្ចសហការរវាង<strong>សាកលវិទ្យាល័យជាតិតៃប៉ិ</strong> (មន្ទីរពិសោធន៍ SMSPL នាយកដ្ឋានវិស្វកម្មទូរគមនាគមន៍) និង<strong>សមាគមអ្នកជំងឺជំងឺណឺរ៉ូនចលនានៃតៃវ៉ាន់</strong>។ ប្រធានគម្រោង៖ សាស្ត្រាចារ្យ Chen-Yu Chiang (江振宇) បញ្ជីក្រុមការងារពេញលេញមាននៅកំណែភាសាចិននៃទំព័រនេះ។</p>`],
       ["ទំនាក់ទំនង", `<ul><li><strong>បច្ចេកទេស និងកិច្ចសហការ</strong>៖ សាស្ត្រាចារ្យ Chen-Yu Chiang សាកលវិទ្យាល័យជាតិតៃប៉ិ — <a href="mailto:cychiang@mail.ntpu.edu.tw">cychiang@mail.ntpu.edu.tw</a></li>
 <li><strong>អ្នកជំងឺស្នើសុំសាកល្បង</strong>៖ សមាគមអ្នកជំងឺជំងឺណឺរ៉ូនចលនានៃតៃវ៉ាន់។</li>
@@ -250,10 +236,8 @@ const PAGES = {
       ["သွင်းယူခြင်း", `<p>Windows 10 သို့မဟုတ် 11 (64-bit) ကွန်ပျူတာ၊ အလွတ် USB ပေါက် ၂ ခု (ကင်မရာနှင့် ထိန်းချုပ်ကြိုး)၊ အသံထွက်သော စပီကာ လိုသည်။ စီမံခန့်ခွဲသူ စကားဝှက် မလိုပါ။</p>
 <ol><li>အပေါ်က ခလုတ်ဖြင့် သွင်းယူဖိုင်ကို ဒေါင်းလုဒ်လုပ်ပြီး ဖွင့်ပါ။</li>
 <li>အပြာရောင် “Windows protected your PC” ပေါ်လျှင်— <strong>More info → Run anyway</strong> ကို နှိပ်ပါ။</li>
-<li>“Smart App Control has blocked this app” ပေါ်လျှင် (Windows 11 စက်သစ်)— Settings → Privacy & security → Windows Security → App & browser control → Smart App Control သို့ သွား၍ <strong>Off</strong> ရွေးပြီး ပြန်သွင်းပါ။</li>
 <li>ပထမအကြိမ် ကွန်ပျူတာ အင်တာနက် တစ်ကြိမ် လိုသည်— ပရိုဂရမ်ထဲက ခလုတ်ကို နှိပ်၍ ထိန်းချုပ်သေတ္တာ ဒရိုက်ဗာ သွင်းပါ။</li>
-<li>ဗားရှင်းအသစ် ရှိလျှင် ပရိုဂရမ် ထိပ်တွင် အသိပေးသည်၊ “ဒေါင်းလုဒ်လုပ်ပြီး သွင်း” ကို နှိပ်ပါ။ အဆင့်မြှင့်ခြင်းသည် ဆက်တင်များကို မဖျက်ပါ။</li></ol>
-<p>သွင်းယူဖိုင်တွင် ဒစ်ဂျစ်တယ် လက်မှတ် မရှိသေးပါ (လက်မှတ် လျှောက်ထားဆဲ) ထို့ကြောင့် အဆင့် ၂ နှင့် ၃ သည် ပုံမှန် ဖြစ်သည်။ ဤစာမျက်နှာ သို့မဟုတ် GitHub Releases စာမျက်နှာမှသာ ဒေါင်းလုဒ်လုပ်ပါ။</p>`],
+<li>ဗားရှင်းအသစ် ရှိလျှင် ပရိုဂရမ် ထိပ်တွင် အသိပေးသည်၊ “ဒေါင်းလုဒ်လုပ်ပြီး သွင်း” ကို နှိပ်ပါ။ အဆင့်မြှင့်ခြင်းသည် ဆက်တင်များကို မဖျက်ပါ။</li></ol>`],
       ["စီမံကိန်းနှင့် အဖွဲ့", `<p>2026 ခုနှစ် “MND အသင်းအတွက် မျက်လုံးထိန်း ခေါ်ခေါင်းလောင်း” စီမံကိန်းက ထောက်ပံ့ပြီး <strong>အမျိုးသား တိုင်ပေ တက္ကသိုလ်</strong> (SMSPL ဓာတ်ခွဲခန်း၊ ဆက်သွယ်ရေး အင်ဂျင်နီယာဌာန) နှင့် <strong>ထိုင်ဝမ် မော်တာ နယူရွန် ရောဂါ အသင်း</strong> ပူးပေါင်းဆောင်ရွက်သည်။ အဓိက သုတေသီ— ပါမောက္ခ Chen-Yu Chiang (江振宇)၊ အဖွဲ့ စာရင်းအပြည့်အစုံကို ဤစာမျက်နှာ၏ တရုတ်ဘာသာ ဗားရှင်းတွင် ကြည့်ပါ။</p>`],
       ["ဆက်သွယ်ရန်", `<ul><li><strong>နည်းပညာနှင့် ပူးပေါင်းဆောင်ရွက်မှု</strong>— ပါမောက္ခ Chen-Yu Chiang၊ အမျိုးသား တိုင်ပေ တက္ကသိုလ် — <a href="mailto:cychiang@mail.ntpu.edu.tw">cychiang@mail.ntpu.edu.tw</a></li>
 <li><strong>စမ်းသုံးရန် လျှောက်ထားသော လူနာများ</strong>— ထိုင်ဝမ် မော်တာ နယူရွန် ရောဂါ အသင်း။</li>
@@ -282,10 +266,8 @@ const PAGES = {
       ["ການຕິດຕັ້ງ", `<p>ຕ້ອງໃຊ້ຄອມພິວເຕີ Windows 10 ຫຼື 11 (64 ບິດ) ຊ່ອງ USB ຫວ່າງ 2 ຊ່ອງ (ກ້ອງແລະສາຍຄວບຄຸມ) ແລະລຳໂພງທີ່ມີສຽງ. ບໍ່ຕ້ອງໃຊ້ລະຫັດຜູ້ບໍລິຫານ.</p>
 <ol><li>ດາວໂຫຼດຕົວຕິດຕັ້ງດ້ວຍປຸ່ມຂ້າງເທິງ ແລ້ວແລ່ນ.</li>
 <li>ຖ້າຂຶ້ນໜ້າຈໍສີຟ້າ “Windows protected your PC”: ກົດ <strong>More info → Run anyway</strong>.</li>
-<li>ຖ້າຂຶ້ນ “Smart App Control has blocked this app” (ເຄື່ອງ Windows 11 ໃໝ່): ໄປ Settings → Privacy & security → Windows Security → App & browser control → Smart App Control ເລືອກ <strong>Off</strong> ແລ້ວຕິດຕັ້ງໃໝ່.</li>
 <li>ຄັ້ງທຳອິດ ຄອມພິວເຕີຕ້ອງຕໍ່ອິນເຕີເນັດໜຶ່ງຄັ້ງ: ກົດປຸ່ມໃນໂປຣແກຣມເພື່ອຕິດຕັ້ງໄດຣເວີກ່ອງຄວບຄຸມ.</li>
-<li>ເມື່ອມີເວີຊັນໃໝ່ ໂປຣແກຣມຈະແຈ້ງຢູ່ເທິງ ກົດ “ດາວໂຫຼດແລະຕິດຕັ້ງ”. ການອັບເກຣດບໍ່ລຶບການຕັ້ງຄ່າຂອງທ່ານ.</li></ol>
-<p>ຕົວຕິດຕັ້ງຍັງບໍ່ມີລາຍເຊັນດິຈິຕອນ (ກຳລັງຂໍໃບຢັ້ງຢືນ) ຂັ້ນຕອນ 2 ແລະ 3 ຈຶ່ງເປັນເລື່ອງປົກກະຕິ. ດາວໂຫຼດຈາກໜ້ານີ້ຫຼືໜ້າ Releases ເທິງ GitHub ເທົ່ານັ້ນ.</p>`],
+<li>ເມື່ອມີເວີຊັນໃໝ່ ໂປຣແກຣມຈະແຈ້ງຢູ່ເທິງ ກົດ “ດາວໂຫຼດແລະຕິດຕັ້ງ”. ການອັບເກຣດບໍ່ລຶບການຕັ້ງຄ່າຂອງທ່ານ.</li></ol>`],
       ["ໂຄງການແລະທີມງານ", `<p>ສະໜັບສະໜູນໂດຍໂຄງການປີ 2026 “ກະດິ່ງເອີ້ນຄວບຄຸມດ້ວຍສາຍຕາສຳລັບສະມາຄົມ MND” ຄວາມຮ່ວມມືລະຫວ່າງ<strong>ມະຫາວິທະຍາໄລແຫ່ງຊາດໄທເປ</strong> (ຫ້ອງທົດລອງ SMSPL ພາກວິຊາວິສະວະກຳການສື່ສານ) ກັບ<strong>ສະມາຄົມພະຍາດເຊລປະສາດສັ່ງການແຫ່ງໄຕ້ຫວັນ</strong>. ຫົວໜ້າໂຄງການ: ສຈ. Chen-Yu Chiang (江振宇); ລາຍຊື່ທີມງານເຕັມຢູ່ໃນໜ້າພາສາຈີນ.</p>`],
       ["ຕິດຕໍ່", `<ul><li><strong>ດ້ານເຕັກນິກແລະຄວາມຮ່ວມມື</strong>: ສຈ. Chen-Yu Chiang ມະຫາວິທະຍາໄລແຫ່ງຊາດໄທເປ — <a href="mailto:cychiang@mail.ntpu.edu.tw">cychiang@mail.ntpu.edu.tw</a></li>
 <li><strong>ຄົນເຈັບສະໝັກທົດລອງໃຊ້</strong>: ສະມາຄົມພະຍາດເຊລປະສາດສັ່ງການແຫ່ງໄຕ້ຫວັນ.</li>
@@ -314,10 +296,8 @@ const PAGES = {
       ["Instalasaun", `<p>Presiza laptop ka desktop Windows 10 ka 11 (64-bit), portu USB mamuk rua (kámara no kabu kontrolu), no altifalante ne'ebé funsiona. La presiza senha administradór.</p>
 <ol><li>Download instaladór ho butaun iha leten no halo la'o.</li>
 <li>Se ekrã azul “Windows protected your PC” mosu: klik <strong>More info → Run anyway</strong>.</li>
-<li>Se “Smart App Control has blocked this app” mosu (PC Windows 11 foun): bá Settings → Privacy & security → Windows Security → App & browser control → Smart App Control, hili <strong>Off</strong>, depois instala fali.</li>
 <li>Dala uluk, komputadór presiza internet dala ida: hanehan butaun iha programa atu instala driver kaixa kontrolu.</li>
-<li>Bainhira iha versaun foun, programa hatudu avizu iha leten; hanehan “Download and install”. Atualizasaun la hamoos ita-nia konfigurasaun.</li></ol>
-<p>Instaladór seidauk iha asinatura dijitál (sertifikadu husu hela), entaun pasu 2 no 3 normál. Download de'it husi pájina ne'e ka pájina Releases iha GitHub.</p>`],
+<li>Bainhira iha versaun foun, programa hatudu avizu iha leten; hanehan “Download and install”. Atualizasaun la hamoos ita-nia konfigurasaun.</li></ol>`],
       ["Projetu no ekipa", `<p>Apoiu husi projetu 2026 “Sino bolu ho matan ba Asosiasaun MND”, kooperasaun entre <strong>National Taipei University</strong> (Laboratóriu SMSPL, Departamentu Enjeñaria Komunikasaun) no <strong>Asosiasaun Moras Neurón Motor Taiwan</strong>. Investigadór prinsipál: Prof. Chen-Yu Chiang (江振宇); lista ekipa kompletu iha versaun Xinés pájina ne'e.</p>`],
       ["Kontaktu", `<ul><li><strong>Tékniku no kooperasaun</strong>: Prof. Chen-Yu Chiang, National Taipei University — <a href="mailto:cychiang@mail.ntpu.edu.tw">cychiang@mail.ntpu.edu.tw</a></li>
 <li><strong>Moras-na'in husu koko</strong>: Asosiasaun Moras Neurón Motor Taiwan.</li>
@@ -346,10 +326,8 @@ const PAGES = {
       ["Instalação", `<p>É necessário um computador com Windows 10 ou 11 (64 bits), duas portas USB livres (câmara e cabo de controlo) e um altifalante a funcionar. Não é precisa palavra-passe de administrador.</p>
 <ol><li>Transfira o instalador com o botão acima e execute-o.</li>
 <li>Se aparecer o ecrã azul “O Windows protegeu o seu PC”: clique em <strong>Mais informações → Executar mesmo assim</strong>.</li>
-<li>Se aparecer “O Smart App Control bloqueou esta aplicação” (PCs novos com Windows 11): vá a Definições → Privacidade e segurança → Segurança do Windows → Controlo de aplicações e browser → Smart App Control e escolha <strong>Desativado</strong>; depois instale de novo.</li>
 <li>Na primeira utilização o computador precisa de internet uma vez: carregue no botão do programa para instalar o controlador da caixa de controlo.</li>
-<li>Quando houver uma versão nova, o programa mostra um aviso no topo; carregue em “Transferir e instalar”. A atualização mantém as suas definições.</li></ol>
-<p>O instalador ainda não tem assinatura digital (o certificado está a ser pedido), pelo que os passos 2 e 3 são normais. Transfira apenas desta página ou da página Releases no GitHub.</p>`],
+<li>Quando houver uma versão nova, o programa mostra um aviso no topo; carregue em “Transferir e instalar”. A atualização mantém as suas definições.</li></ol>`],
       ["Projeto e equipa", `<p>Apoiado pelo projeto de 2026 “Campainha de chamada por olhar para a Associação de DNM”, uma cooperação entre a <strong>Universidade Nacional de Taipei</strong> (Laboratório SMSPL, Departamento de Engenharia de Comunicações) e a <strong>Associação Taiwanesa de Doença do Neurónio Motor</strong>. Investigador principal: Prof. Chen-Yu Chiang (江振宇); a equipa completa está na versão chinesa desta página.</p>`],
       ["Contacto", `<ul><li><strong>Técnico e cooperação</strong>: Prof. Chen-Yu Chiang, Universidade Nacional de Taipei — <a href="mailto:cychiang@mail.ntpu.edu.tw">cychiang@mail.ntpu.edu.tw</a></li>
 <li><strong>Doentes que queiram experimentar</strong>: Associação Taiwanesa de Doença do Neurónio Motor.</li>
