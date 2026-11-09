@@ -11,7 +11,7 @@ CRCL-BELL 紅外線非接觸式眼控叫人鈴（Windows 原生版）的**安裝
 - **網站**：`index.html`（GitHub Pages，main 分支根目錄），用 JavaScript 讀同一個 API 顯示最新版本與下載按鈕，不需要每版改網頁。
 - **網站的語言**：中文完整版在 `index.html`；其餘十一種（ASEAN 十一國的國家語言：英、越、印尼、馬來、菲律賓、泰、高棉、緬甸、寮，東帝汶的德頓語與葡萄牙語）是給看護看的精簡版，在 `pages.js`，每種語言七節（這是什麼／給誰用／怎麼運作／安全／安裝／計畫與團隊／聯絡）。預設跟瀏覽器語言，選過的記在 localStorage。改一句就改 `pages.js` 那一句；加一節要十一種一起加。翻譯未經母語者審閱。
 - **網站的「版本紀錄」是手寫的**（index.html 的 changelog 一節）：每版發布後補一列，只寫使用者看得到的變化，不寫內部路徑、secret、未公開連結；技術細目留在 Releases 的說明。
-- **安裝檔未簽章**：SmartScreen 與 Smart App Control 會擋，程式碼簽章憑證申請中。
+- **安裝檔有數位簽章**（v1.0.0 起）：Authenticode 簽章，發行者 Chen-Yu Chiang，SSL.com 核發的程式碼簽章憑證，附時間戳記。網站已拿掉 Smart App Control 的繞過步驟；新憑證累積下載信譽前，SmartScreen 仍可能提示。
 
 計畫：「漸凍人協會眼控叫人鈴研發計畫」（國立臺北大學通訊工程學系 SMSPL 實驗室 × 社團法人中華民國運動神經元疾病病友協會，2026）。
 聯絡：江振宇 副教授 cychiang@mail.ntpu.edu.tw
